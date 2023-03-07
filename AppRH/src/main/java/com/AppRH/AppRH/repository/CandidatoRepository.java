@@ -13,4 +13,5 @@ public interface CandidatoRepository extends CrudRepository<Candidato,String>{
     Candidato findByRg(String rg);
     Candidato findById(long id);
     List<Candidato> findByNomeCandidato(String nomeCandidato);
+
 }
