@@ -28,7 +28,7 @@ public class FuncionarioController {
 	// GET que chama o form para cadastrar funcionários
 	@RequestMapping("/cadastrarFuncionario")
 	public String form() {
-		return "funcionario/form-funcionario";
+		return "template/funcionario/form-funcionario.html";
 	}
 
 	// POST que cadastra funcionários
