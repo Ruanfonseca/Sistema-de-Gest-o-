@@ -1,0 +1,4 @@
+Bem vindo ao APP Rh
+
+Sistema desenvolvido com o framework SpringBoot 2.7 , Hibernate , no front foi utilizado Thymeleaf como renderizador
+ e o Bootstrap , e banco de dados Postgresql.

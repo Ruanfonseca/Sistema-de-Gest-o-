@@ -59,7 +59,7 @@ public class VagaController {
 	@RequestMapping("/vaga/{codigo}")
 	public ModelAndView detalhesVaga(@PathVariable("codigo") long codigo) {
 		Vaga vaga = vr.findByCodigo(codigo);
-		ModelAndView mv = new ModelAndView("template/vaga/detalhes-vaga");
+		ModelAndView mv = new ModelAndView("template/vaga/detalhes-vaga.html");
 		mv.addObject("vaga", vaga);
 
 		Iterable<Candidato> canditados = cr.findByVaga(vaga);
